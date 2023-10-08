@@ -1,4 +1,4 @@
-## ASP.NET CORE JWT Authentication
+## ASP.NET Core JWT Authentication
 This is an example of a simple JWT authentication with the refresh token feature in ASP.NET Web API. It mostly uses ASP.NET Core Identity to help with the user management. ASP.NET Core is responsible for authentication (JWT expiry management), setting up routes and controllers. It also connects to a MySql database to store user's information and the refresh token information. Security for the user's credentials are done by ASP.NET Core Identity which will automatically generate a salt, hashes the user's password, and then stores the generated salt and password hash into the database.
 
 ### Changing the JWT Key, Issuer and Audience
